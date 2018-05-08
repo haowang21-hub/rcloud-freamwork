@@ -1,0 +1,7 @@
+com\rcloud\springboot\datasource\DynamicDataSourceRepository.class
+com\rcloud\springboot\datasource\DruidDbProperties.class
+com\rcloud\springboot\datasource\DynamicDataSourceAutoConfiguration.class
+com\rcloud\springboot\datasource\TargetDataSource.class
+com\rcloud\springboot\datasource\DynamicDataSourceAspect.class
+META-INF\spring-configuration-metadata.json
+com\rcloud\springboot\datasource\DynamicDataSource.class

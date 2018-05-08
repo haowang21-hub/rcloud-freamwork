@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.richway</groupId>
+		<artifactId>rcloud-freamwork</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>rcloud-fastdfs-fileservice</artifactId>
+	<name>rcloud-fastdfs-fileservice</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.richway</groupId>
+			<artifactId>rcloud-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.richway</groupId>
+			<artifactId>rcloud-mybatis-plus-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.richway</groupId>
+			<artifactId>rcloud-springboot-starter-datasource</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.richway</groupId>
+			<artifactId>rcloud-springboot-starter-swagger</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.richway</groupId>
+			<artifactId>rcloud-springboot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.tobato</groupId>
+			<artifactId>fastdfs-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

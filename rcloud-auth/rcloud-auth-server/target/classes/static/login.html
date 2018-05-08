@@ -1,0 +1,124 @@
+<%@ page pageEncoding="UTF-8" %>
+<link rel="stylesheet" type="text/css" href="${basePath}base/vendor/bootstrap/css/bootstrap.css"/>
+<div class="whole-page" style="margin-top:-1px;">
+<div class="wrap">
+
+<div id="cookiesDisabled" class="errors" style="display:none;">
+    <h2><spring:message code="screen.cookies.disabled.title" /></h2>
+    <p><spring:message code="screen.cookies.disabled.message" /></p>
+</div>
+<!--登陆模块 -->
+  	<div class="login_wrap container" id="login_wrap">
+	<!--  左侧 -->
+	<div class="border_side row" id="border_side"> 
+	<div class="login-module col-md-4 col-sm-12 col-xs-12 row" id="login">
+	 	<div class="logoWrap col-md-12 col-sm-12 col-xs-12">
+		<a class="logo hidden-xs" href="##">
+			<img class='img-responsive'
+			src="${basePath}base/images/rich/logo-95.png"
+			style="max-height: 45px; margin-top: 3px;display:inline-block;" alt="LOGO" />
+		</a> 
+		<a class="navbar-brand titleIcon" href="##">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705.34 220.37">
+				<defs>
+				<style>.cls-1 {fill: #fff;}</style></defs>
+				<title>瑞智云</title><g id="图层_2" data-name="图层 2">
+				<g id="VIW">
+				<rect class="cls-1" y="11.5" width="71.33" height="10" />
+				<rect class="cls-1" y="99.5" width="71.33" height="10" />
+				<rect class="cls-1" x="16" y="21.5" width="35.67" height="183.5" />
+				<rect class="cls-1" x="76" y="7.91" width="35.67" height="56.72" />
+				<rect class="cls-1" x="76" y="113.25" width="33.16" height="107.12" />
+				<path class="cls-1" d="M217,207.35s-7,13-21.75,13-21.75-13-21.75-13,6.14,1.13,8-.85c2.74-2.91,2.34-15,2.34-15V126.25s-2.26-3.5-15.05-3.5-36.77-.84-43.22-.47c-8.07.47-21.07,8.38-21.07,8.38s-10.68.59,2.66-8.41S126.5,93.5,126.5,93.5h40l-14,19.75h46c11,0,18.5,10.75,18.5,19.75Z" />
+				<rect class="cls-1" x="115.88" y="117.5" width="25.39" height="96.04" />
+				<rect class="cls-1" x="149.73" y="117.5" width="25.39" height="96.04" />
+				<path class="cls-1" d="M217,50.17V9.81H181.33V50.17S182,58.5,165.5,58.5V0H126V58.5S113.83,59,111.67,48V58.5s4.83,8.06,11.83,8,77,0,77,0S217,61.83,217,50.17Z" />
+				<rect class="cls-1" x="506.9" y="7.91" width="178.77" height="10" />
+				<rect class="cls-1" x="67.74" y="83.5" width="151.64" height="10" />
+				<path class="cls-1" d="M0,200.88V213s59,6,76-22v-5.5l-14.5,9S46.5,205.25,0,200.88Z" />
+				<rect class="cls-1" x="265.24" y="122.28" width="35.67" height="98.09" />
+				<path class="cls-1" d="M444.9,193.18s0,29.68-27,26.6S383.61,207,383.61,207s16.39,3.55,21.33-2.22c3.12-3.65,4.24-11.6,4.24-11.6V144.11L444.9,146Z" />
+				<rect class="cls-1" x="284.26" y="161.5" width="129.74" height="10" />
+				<polygon class="cls-1" points="284.26 204.5 399.75 204.5 414 204.5 414 214.5 284.26 214.5 284.26 204.5" />
+				<path class="cls-1" d="M297,136.5s7.14-10.5,23.24-13.59h98.1s26.56,5.59,26.56,23.59H409.24s1.76-11.79-25.57-11.79c-29.33,0-77.34-2.88-86.67,7.79Z" />
+				<path class="cls-1" d="M548,105h48.28L540,178.45s-9,18.59,10,20.93,75.67-3,92-10.67l-29-65h43.67l20,51.33s10,26,28.67,42.67c0,0-23.67,7.33-39-2.33s-22.67-20.67-22.67-20.67S626.67,212.38,573,218s-70.67-7-70.67-7-15-13.33-5.67-35S548,105,548,105Z" />
+				<rect class="cls-1" x="365.24" y="7.91" width="35.67" height="103.09" />
+				<rect class="cls-1" x="425.51" y="35" width="35.19" height="76" />
+				<rect class="cls-1" x="243.9" y="48.81" width="114.1" height="10" />
+				<rect class="cls-1" x="265" y="15.81" width="83" height="10" />
+				<rect class="cls-1" x="378.26" y="94.5" width="64.74" height="10" />
+				<path class="cls-1" d="M388,27.5s7.14-10.5,23.24-13.59H438S460.7,17,460.7,36.7L425.51,38V32.65c0-2.65-2-4.67-5.42-6.21-3.15-1.39-5.31-.86-10.75-.89-10.82-.06-15.12.84-21.33,7.94Z" />
+				<path class="cls-1" d="M287.69,18.53h35.06V66c0,23.64-15.06,34.15-30.75,41-19.5,8.51-48,2-48,2h0s22.61-2.25,33.2-11.21,10.49-23.63,10.49-36.66Z" />
+				<path class="cls-1" d="M292.68.84V5.71c0,23.64-12.63,33.36-29.26,37.49a123,123,0,0,1-26.14,3.26h0S247.23,40,253,31c3.25-5.06,3.84-12.88,3.84-16,0-12.61-.21-14.16-.21-14.16Z" />
+				<path class="cls-1" d="M311.42,83.13s6.52,2.44,16.29,9.78,15.48,18.74,15.48,18.74l20.37-22s-2.44-5.7-13.85-12.22-32.59-7.33-32.59-7.33Z" />
+				<rect class="cls-1" x="485.26" y="83.5" width="218.74" height="10" /></g></g>
+				</svg>
+		</a>
+	</div>	
+	<form:form class="col-md-12 col-sm-12 col-xs-12 row" method="post" id="fm1" commandName="${commandName}" htmlEscape="true" style="overflow:hidden;">			
+			<h2 style="color:#0d467b;text-align:left;margin-bottom:68px;">云平台登陆</h2>
+	        <section class="col-md-12 col-sm-12 col-xs-12">
+	            <label for="username"> 账号：<!-- <spring:message code="screen.welcome.label.netid" /></label><br>-->
+	            <c:choose>
+	                <c:when test="${not empty sessionScope.openIdLocalId}">
+	                    <strong><c:out value="${sessionScope.openIdLocalId}" /></strong>
+	                    <input type="hidden" id="username" name="username" value="<c:out value="${sessionScope.openIdLocalId}" />" />
+	                </c:when>
+	                <c:otherwise>
+	                    <spring:message code="screen.welcome.label.netid.accesskey" var="userNameAccessKey" />
+	                    <form:input cssClass="required" style="margin-top:5px;" placeholder="请输入用户名" cssErrorClass="error" id="username" size="34" tabindex="1" accesskey="${userNameAccessKey}" path="username" autocomplete="off" htmlEscape="true" />
+	                </c:otherwise>
+	            </c:choose>
+	        </section>
+	
+	        <section class="col-md-12 col-sm-12 col-xs-12">
+	            <label for="password"> 密码： 
+	            <spring:message code="screen.welcome.label.password.accesskey" var="passwordAccessKey" />
+	            <form:password cssClass="required" style="margin-top:5px;" placeholder="请输入密码" cssErrorClass="error" id="password" size="34" tabindex="2" path="password"  accesskey="${passwordAccessKey}" htmlEscape="true" autocomplete="off" />
+	            <span id="capslock-on" style="display:none;"><p><img src="images/warning.png" valign="top"> <spring:message code="screen.capslock.on" /></p></span>
+	        </section>
+	        <div class='col-md-8 col-sm-8 col-xs-12' style="height:42px;line-height:42px;">
+				<spring:message code="noaccount.title" />
+				<a href="register.jsp" style="text-decoration: none;color:#4056F2;margin:10px"><spring:message code="register.title" /></a>
+				<a href="resetpwd.jsp" style="text-decoration: none;color:#d7d7d7;"><spring:message code="forgetPassword.title" /></a>
+			</div>
+	        <section class="btn-row col-md-4 col-sm-4 col-xs-12" style="padding: 5px 0px;float:left;">
+	           
+	            <input type="hidden" name="execution" value="${flowExecutionKey}" />
+	            <input type="hidden" name="_eventId" value="submit" />
+	
+	            <input class="btn-submit" name="submit" style="width: 100%;" accesskey="l" value="<spring:message code="screen.welcome.button.login" />" tabindex="6" type="submit" />
+	            <input class="btn-reset" name="reset" style="display: none;" accesskey="c" value="<spring:message code="screen.welcome.button.clear" />" tabindex="7" type="reset" />
+	        </section>
+	
+	        <br>
+	      	<form:errors class='col-md-12 col-sm-12 col-xs-12' path="*" id="msg" cssClass="errors" element="div" htmlEscape="false" />  
+	    </form:form>
+        <div id="list-languages" class='col-md-12 col-sm-12 col-xs-12' >
+    		<h2 style="font-size: 1em;color: #ccc;"><spring:message code="screen.welcome.security" /></h2>  
+        </div>
+	 </div>
+	 </div>		
+  </div>	
+</div> 
+<footer id="fotb" style="width:100%;height:60px;position:fixed;bottom:0;color:#fff;line-height: 60px;background:rgba(0,0,0,.3)">
+  <div id="copyright" class="container" style="margin-right: 74px;">
+    <p class="ver_wrap"><span style="text-align: center;">&copy; 版权所有 |</span> 
+       <span style="text-align: center;"><a href="http://www.richwaytec.com">江河瑞通（北京）技术有限公司 |</span>
+       <span style="margin-left:10px;">京ICP备17058539号</span>
+    </p> 
+  </div>
+</footer>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+	 $('.login-module input').focus(function(){
+		 $(this).addClass('inputSelected');
+	 })
+	 
+	 $('.login-module input').blur(function(){
+		 $(this).removeClass('inputSelected');
+	 })
+});    
+</script>

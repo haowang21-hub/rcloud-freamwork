@@ -1,0 +1,201 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger",
+      "type": "com.rcloud.springboot.swagger.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.contact",
+      "sourceMethod": "public com.rcloud.springboot.swagger.SwaggerProperties.Contact getContact() ",
+      "type": "com.rcloud.springboot.swagger.SwaggerProperties$Contact"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.global-response-message",
+      "sourceMethod": "public com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessage getGlobalResponseMessage() ",
+      "type": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.ui-config",
+      "sourceMethod": "public com.rcloud.springboot.swagger.SwaggerProperties.UiConfig getUiConfig() ",
+      "type": "com.rcloud.springboot.swagger.SwaggerProperties$UiConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.apply-default-response-messages",
+      "description": "是否使用默认预定义的响应消息 ，默认 true *",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.base-package",
+      "description": "swagger会解析的包路径 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.base-path",
+      "description": "swagger会解析的url规则 *",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$Contact",
+      "name": "swagger.contact.email",
+      "description": "联系人email *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$Contact",
+      "name": "swagger.contact.name",
+      "description": "联系人 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$Contact",
+      "name": "swagger.contact.url",
+      "description": "联系人url *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.description",
+      "description": "描述 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.docket",
+      "description": "分组文档 *",
+      "type": "java.util.Map<java.lang.String,com.rcloud.springboot.swagger.SwaggerProperties.DocketInfo>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.enabled",
+      "description": "是否开启swagger *",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.exclude-path",
+      "description": "在basePath基础上需要排除的url规则 *",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.global-operation-parameters",
+      "description": "全局参数配置 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalOperationParameter>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.delete",
+      "description": "DELETE 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.get",
+      "description": "GET 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.head",
+      "description": "HEAD 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.options",
+      "description": "OPTIONS 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.patch",
+      "description": "PATCH 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.post",
+      "description": "POST 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.put",
+      "description": "PUT 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$GlobalResponseMessage",
+      "name": "swagger.global-response-message.trace",
+      "description": "TRACE 响应消息体 *",
+      "type": "java.util.List<com.rcloud.springboot.swagger.SwaggerProperties.GlobalResponseMessageBody>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.host",
+      "description": "host信息 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.ignored-parameter-types",
+      "description": "忽略的参数类型 *",
+      "type": "java.util.List<java.lang.Class<?>>"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.license",
+      "description": "许可证 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.license-url",
+      "description": "许可证URL *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.terms-of-service-url",
+      "description": "服务条款URL *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.title",
+      "description": "标题 *",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$UiConfig",
+      "name": "swagger.ui-config.default-model-rendering",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$UiConfig",
+      "name": "swagger.ui-config.doc-expansion",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties$UiConfig",
+      "name": "swagger.ui-config.validator-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rcloud.springboot.swagger.SwaggerProperties",
+      "name": "swagger.version",
+      "description": "版本 *",
+      "type": "java.lang.String"
+    }
+  ]
+}

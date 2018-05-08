@@ -1,0 +1,10 @@
+com\rcloud\common\file\entity\FileStore$FileStoreBuilder.class
+com\rcloud\common\file\utils\FastDFSClientWrapper$1.class
+com\rcloud\common\file\FileServiceConfig.class
+com\rcloud\common\file\entity\FileStore.class
+com\rcloud\common\file\service\impl\FastDFSFileServiceImpl.class
+com\rcloud\common\file\service\FileService.class
+com\rcloud\common\file\entity\FileVO.class
+com\rcloud\common\file\mapper\FileStoreMapper.class
+com\rcloud\common\file\controller\FileController.class
+com\rcloud\common\file\utils\FastDFSClientWrapper.class

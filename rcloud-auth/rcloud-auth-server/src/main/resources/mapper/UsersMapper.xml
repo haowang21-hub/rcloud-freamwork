@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rcloud.auth.server.mapper.UsersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rcloud.auth.server.entity.Users">
+        <result column="USER_ACCOUNT" property="userAccount" />
+        <result column="USER_PWD" property="userPwd" />
+        <result column="LAST_LOGIN" property="lastLogin" />
+        <result column="UP_TIME" property="upTime" />
+        <result column="NT" property="nt" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rcloud.fastdfs.fileservice.mapper.FileStoreMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap"
+		type="com.rcloud.fastdfs.fileservice.entity.FileStore">
+		<id column="id" property="id" />
+		<result column="file_name" property="fileName" />
+		<result column="file_size" property="fileSize" />
+		<result column="file_suffix" property="fileSuffix" />
+		<result column="group_name" property="groupName" />
+		<result column="store_path" property="storePath" />
+		<result column="file_type" property="fileType" />
+		<result column="busi_code" property="busiCode" />
+		<result column="appid" property="appid" />
+		<result column="crt_dt" property="crtDt" />
+		<result column="user_id" property="userId" />
+	</resultMap>
+
+</mapper>

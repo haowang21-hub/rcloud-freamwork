@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rcloud.auth.server.mapper.UserinfoMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.rcloud.auth.server.entity.Userinfo">
+		<result column="USER_ACCOUNT" property="userAccount" />
+		<result column="NICK_NAME" property="nickName" />
+		<result column="EMAIL" property="email" />
+		<result column="WECHAT_ACCOUNT" property="wechatAccount" />
+		<result column="MOBILE" property="mobile" />
+		<result column="USER_NAME" property="userName" />
+		<result column="SEX" property="sex" />
+		<result column="TEL" property="tel" />
+		<result column="QQ" property="qq" />
+		<result column="ADDRESS" property="address" />
+		<result column="BIRTHDAY" property="birthday" />
+		<result column="FAX" property="fax" />
+		<result column="USER_STATUS" property="userStatus" />
+		<result column="IS_USER" property="isUser" />
+		<result column="ADL_CD" property="adlCd" />
+		<result column="ID_CARD" property="idCard" />
+		<result column="TS" property="ts" />
+		<result column="NT" property="nt" />
+		<result column="APP_ID" property="appId" />
+		<result column="IS_ACTIVE" property="isActive" />
+	</resultMap>
+
+</mapper>

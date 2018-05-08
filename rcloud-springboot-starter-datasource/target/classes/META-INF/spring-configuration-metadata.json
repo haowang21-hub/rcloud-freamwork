@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.rcloud.springboot.datasource.DynamicDataSourceRepository",
+      "name": "richway.dynamic",
+      "type": "com.rcloud.springboot.datasource.DynamicDataSourceRepository"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.rcloud.springboot.datasource.DynamicDataSourceRepository",
+      "name": "richway.dynamic.datasource",
+      "type": "java.util.Map<java.lang.String,com.rcloud.springboot.datasource.DruidDbProperties>"
+    }
+  ]
+}

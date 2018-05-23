@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.richway</groupId>
 		<artifactId>rcloud-auth</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.1</version>
 	</parent>
 	<artifactId>rcloud-auth-server</artifactId>
 	<name>rcloud-auth-server</name>

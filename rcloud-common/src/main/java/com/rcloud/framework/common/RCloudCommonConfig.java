@@ -9,4 +9,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackageClasses = RCloudCommonConfig.class)
 public class RCloudCommonConfig {
 
+	public static void main(String[] args) {
+		System.out.println("Main..");
+	}
+
 }

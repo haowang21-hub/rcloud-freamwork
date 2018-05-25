@@ -225,6 +225,13 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<distributionManagement>
+	    <repository>
+	        <id>central</id>
+	        <name>artifactorypro-server-releases</name>
+	        <url>http://192.168.223.130:8081/artifactory/libs-release</url>
+	    </repository>
+	</distributionManagement>
 
 	<build>
 		<pluginManagement>
